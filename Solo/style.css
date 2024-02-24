@@ -1,0 +1,90 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  align-items: center;
+  font-style: italic;
+}
+.header span {
+  color: blue;
+  font-size: 20px;
+}
+
+.allinputs {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 10px;
+  align-content: flex-start;
+  background-color: lightblue;
+  box-shadow: 10px 10px black;
+  border-radius: 15px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: blue;
+  max-width: 300px;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.comment-area {
+  margin-top: 20px;
+  min-height: 200px;
+  max-height: 600px;
+  min-width: 600px;
+  max-width: 600px;
+  border: 2px solid blue;
+  box-shadow: 10px 10px black;
+  border-radius: 30px;
+  background-color: lightblue;
+  padding: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.reset {
+  width: auto;
+  height: auto;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+}
+
+.explanation {
+  color: blue;
+  display: inline-block;
+  margin-left: 500px;
+}
+
+.image1 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 185px;
+  top: 30px
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+body {
+    background-color: rgb(195, 157, 157);
+}
+
+.image2 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 1300px;
+    top: 30px;
+}
+
+
